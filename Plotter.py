@@ -19,6 +19,8 @@ def scatterplot(data, ax, **kwargs):
 def rectangularplot(data, ax, **kwargs):
     return 0
 
+def pieplot(data, ax, **kwargs):
+    return 0
 
 plots_database = {
     'barplot' : barplot,
